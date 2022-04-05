@@ -57,3 +57,33 @@ header .line{
   height: 24px;
   cursor: pointer;
 }
+.banner{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner-container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 90px 20px;
+}
+.banner h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 96px;
+  line-height: 106px;
+}
+.banner p{
+  margin-top: 40px;
+}
+.banner-images{
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+}
+.banner-images img{
+  width: 160px;
+  height: 160px;
+  border: 6px solid #117050;
+  border-radius: 50%;
+  
+}
