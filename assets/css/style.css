@@ -186,7 +186,7 @@ grid-template-columns: 1fr 1fr;
 .area3-content{
   max-width: 580px;
   margin:  auto;
-  padding: 210px 80px;
+  padding: 180px 80px;
 }
 .area3-text{
   margin-top: 30px;
@@ -196,6 +196,26 @@ grid-template-columns: 1fr 1fr;
 .area3-img{
   height: 770px;
   background-image: url(../images/f5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.area4{
+  display: grid;
+  grid-template-columns: 550px 1fr;
+}
+.area4-content{
+  padding: 110px 40px 0 180px;
+  background-color: #e8e9ee; 
+}
+.area4-text{
+  margin-top: 30px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.area4-img{
+  height: 770px;
+  background-image: url(../images/bg3.jpg);
   background-size: cover;
   background-position: center;
 }
