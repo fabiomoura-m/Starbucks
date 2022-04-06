@@ -219,3 +219,10 @@ grid-template-columns: 1fr 1fr;
   background-size: cover;
   background-position: center;
 }
+
+.area5{
+  background-image: url(../images/bg4.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 600px;
+}
