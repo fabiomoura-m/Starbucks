@@ -226,3 +226,15 @@ grid-template-columns: 1fr 1fr;
   background-position: 50% 50%;
   height: 600px;
 }
+
+footer{
+  background-color: #333333;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  height: 230px;
+}
