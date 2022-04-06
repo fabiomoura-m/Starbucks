@@ -173,3 +173,29 @@ grid-template-columns: 1fr 1fr;
   background-size: cover;
   background-position: center;
 }
+
+.area3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.area3-content-bg{
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.area3-content{
+  max-width: 580px;
+  margin:  auto;
+  padding: 210px 80px;
+}
+.area3-text{
+  margin-top: 30px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.area3-img{
+  height: 770px;
+  background-image: url(../images/f5.jpg);
+  background-size: cover;
+  background-position: center;
+}
