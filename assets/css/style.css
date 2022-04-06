@@ -6,6 +6,24 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+.bar{
+  width: 168px;
+  height: 22px;
+  margin-top: 55px;
+  background-color: #006341;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 96px;
+  line-height: 106px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
 header .line{
   background-color: #117050;
   height: 10px;
@@ -67,7 +85,7 @@ header .line{
   margin: 0 auto;
   padding: 90px 20px;
 }
-.banner h1{
+h1{
   font-family: 'Oswald', sans-serif;
   font-size: 96px;
   line-height: 106px;
@@ -109,19 +127,7 @@ header .line{
   background-size: cover;
   background-position: center;
 }
-.bar{
-  width: 168px;
-  height: 22px;
-  margin-top: 55px;
-  background-color: #006341;
-}
-h2{
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
-  line-height: 45px;
-  margin-right: 30px;
-  margin-top: 10px;
-}
+
 .area1-quote{
   font-style: italic;
   margin-top: 20px;
@@ -237,4 +243,33 @@ footer{
   align-items: center;
   gap: 80px;
   height: 230px;
+}
+
+@media (max-width: 1140px){
+  .header-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .area4{
+    grid-template-columns: 400px 1fr;
+  }
+  .area4-content{
+    padding: 57px 0px 0 78px;
+  }
+}
+
+@media (max-width: 768px){
+  .area1 , .area3{
+    grid-template-columns: 3fr 2fr;
+  }
+  .area2{
+    grid-template-columns: 2fr 3fr;
+  }
+  .area3-content{
+    padding: 150px 80px;
+  }
 }
